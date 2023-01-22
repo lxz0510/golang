@@ -7,3 +7,4 @@ golang learning
 3. const.go 声明常量，使用 iota 在 const 中进行累加
 4. pointer.go 指针的简单使用
 5. init import 导包的多种方式
+6. defer 作用和执行顺序以及 defer 和 return 的优先级
