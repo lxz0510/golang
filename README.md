@@ -9,3 +9,4 @@ golang learning
 5. init import 导包的多种方式
 6. defer 作用和执行顺序以及 defer 和 return 的优先级
 7. array go 中数组和动态数组的不同，切片的追加和截取
+8. map.go go 中的内置 map 类型
