@@ -15,7 +15,7 @@ func main() {
 	fmt.Println(resp.Status)
 	fmt.Println(resp.Header)
 
-	buf := make([]byte, 1024)x
+	buf := make([]byte, 1024)
 	for {
 		// 接收服务端信息
 		n, err := resp.Body.Read(buf)
