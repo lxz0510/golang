@@ -27,7 +27,7 @@ func main() {
 	// 2.结果管道
 	resultChan := make(chan *Result, 128)
 	// 3.创建工作池
-	createPool(64, jobChan, resultChan)
+	createPool(64, jobChan)
 	// 4.开个打印的协程
 	go func(resultChan chan *Result) {
 		// 遍历结果管道打印
